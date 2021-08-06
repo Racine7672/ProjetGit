@@ -1,0 +1,87 @@
+
+C:\Users\mamadouracine.diallo>git --version
+git version 2.32.0.windows.2
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d
+$ mkdir ProjetGit
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d
+$ cd ProjetGit/
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit
+$ touch lisezmoi.txt*
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit
+$  git init
+Initialized empty Git repository in D:/ProjetGit/.git/
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git add .
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git commit -m "Mon premier commit"
+[master (root-commit) 02bbec3] Mon premier commit
+ Committer: Mamadou Racine Diallo <mamadouracine.diallo@odc.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lisezmoi.txt
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ https://github.com/Racine7672/ProjetGit.git
+bash: https://github.com/Racine7672/ProjetGit.git: No such file or directory
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git remote add origin
+.git/         lisezmoi.txt
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git remote add origin
+.git/         lisezmoi.txt
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git remote add origin
+
+	mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git remote add origin https://github.com/Racine7672/ProjetGit.git
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git remote -v
+origin  https://github.com/Racine7672/ProjetGit.git (fetch)
+origin  https://github.com/Racine7672/ProjetGit.git (push)
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 228 bytes | 228.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Racine7672/ProjetGit.git
+ * [new branch]      master -> master
+
+mamadouracine.diallo@DCIREODCPR22 MINGW64 /d/ProjetGit (master)
+$ rm -r Projet/
